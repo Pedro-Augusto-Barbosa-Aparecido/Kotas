@@ -1,0 +1,90 @@
+.navContainer {
+    display: flex;
+
+    width: 100%;
+    height: 45px;
+
+    /* padding: .4rem; */
+
+    /* background-color: #F00; */
+    background-color: #FFF;
+    color: #000;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.svgImage {
+    margin-left: .7%;
+    margin-right: .4%;
+
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "JetBrains mono", monospace;
+
+}
+
+.containerInputSearch {
+    display: flex;
+
+    width: 500px;
+
+    border: 1px solid #E1E1E1;
+    border-radius: 50px;
+
+    box-sizing: border-box;
+
+    margin-left: 10%;
+    padding: .2rem;
+
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.containerInputSearch input {
+    border: 0;
+
+    width: 90%;
+
+    padding: .2rem;
+
+    color: black;
+
+    outline: none;
+
+}
+
+.containerAux {
+    display: flex;
+    align-items: center;
+
+}
+
+.textNav {
+    font-family: Mulish, sans-serif;
+    font-size: 12px;
+
+    margin-left: .6rem;
+
+}
+
+@media screen and (max-width: 970px) {
+    .containerInputSearch {
+        width: auto;
+        
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .navContainer {
+        display: none;
+
+    }
+
+}
