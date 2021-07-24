@@ -110,6 +110,119 @@ export default function Content () {
                 </div>
             </div>
 
+            <div>
+                <div className={styles.row}>
+                <div className={styles.column} style={{
+                    marginRight: "10px"
+                }}>
+                        <div className={styles.box2}>
+                            <img src="/deezer.png" alt="deezer" width="40" height="40" />
+
+                            <h1>Deezer Family</h1>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>2</h1>
+                                <h2> vagas</h2>
+                            </div>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+                                
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>15,90</h1>
+                                <h2>por mês</h2>
+                            </div>
+
+                            <p>Última vaga</p>
+
+                        </div>
+                    </div>
+                    <div className={styles.column} style={{
+                        marginRight: "10px"
+                    }}>
+                        <div className={styles.box2}>
+                            <img src="/avast.png" alt="deezer" width="40" height="40" />
+
+                            <h1>Avast Ultimate</h1>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>2</h1>
+                                <h2> vagas</h2>
+                            </div>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+                                
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>15,90</h1>
+                                <h2>por mês</h2>
+                            </div>
+
+                            <p>Última vaga</p>
+
+                        </div>
+                    </div>
+                    <div className={styles.column} style={{
+                        marginRight: "10px"
+                    }}>
+                        <div className={styles.box2}>
+                            <img src="/avast.png" alt="deezer" width="40" height="40" />
+
+                            <h1>Avast Ultimate</h1>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>2</h1>
+                                <h2> vagas</h2>
+                            </div>
+
+                            <div style={{
+                                display: "flex",
+                                alignItems: "baseline",
+                                justifyContent: "space-between",
+                                
+                            }}>
+                                <h1 style={{
+                                    marginRight: "15px"
+                                }}>15,90</h1>
+                                <h2>por mês</h2>
+                            </div>
+
+                            <p>Última vaga</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div className={styles.column}>
                 <div className={styles.box}>
                     <div className={styles.line}>
